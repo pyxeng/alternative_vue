@@ -1,4 +1,6 @@
 <template>
+<h1 class="text-2x1">memory_leak</h1>
+<!--
   <svg
     class="NuxtLogo"
     width="80"
@@ -19,4 +21,5 @@
       fill="#2F495E"
     />
   </svg>
+-->
 </template>
