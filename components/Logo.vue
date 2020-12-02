@@ -1,5 +1,7 @@
 <template>
-<h1 class="text-2x1">memory_leak</h1>
+<div style="margin-right:10px;">
+  <p style="color:#333;font-size: 24px;font-family:monospace" class="text-4x1">memory_leak</p>
+</div>
 <!--
   <svg
     class="NuxtLogo"

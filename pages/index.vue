@@ -2,7 +2,7 @@
   <div class="m-8">
     <TheHeader />
 
-    <h1 class="font-bold text-4xl">Blog Posts</h1>
+    <h1 class="font-bold text-4xl">Blog</h1>
     <ul class="flex flex-wrap">
       <li
         v-for="article of articles"
@@ -23,7 +23,7 @@
             class="p-6 flex flex-col justify-between xxlmin:w-1/2 xxlmax:w-full"
           >
             <h2 class="font-bold">{{ article.title }}</h2>
-            <p>by {{ article.author.name }}</p>
+            <p>por {{ article.author.name }}</p>
             <p class="font-bold text-gray-600 text-sm">
               {{ article.description }}
             </p>
@@ -31,7 +31,7 @@
         </NuxtLink>
       </li>
     </ul>
-    <h3 class="mb-4 font-bold text-2xl uppercase text-center">Topics</h3>
+    <h3 class="mb-4 font-bold text-2xl uppercase text-center">Tags</h3>
     <ul class="flex flex-wrap mb-4 text-center">
       <li
         v-for="tag of tags"
@@ -51,7 +51,7 @@
       <p class="mt-4">
         Com tecnologia
         <a
-          href="https://nuxtjs.org/blog/creating-blog-with-nuxt-content"
+          href="https://nuxtjs.org/"
           class="font-bold hover:underline"
           >Nuxt.js</a
         >

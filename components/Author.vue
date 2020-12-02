@@ -1,7 +1,7 @@
 <template>
   <div class="w-full px-2 xs:mb-6 md:mb-12 article-card">
     <NuxtLink
-      :to="`/blog/author/${author.name}`"
+      :to="`/blog/autor/${author.name}`"
       class="flex transition-shadow duration-150 ease-in-out shadow-sm hover:shadow-md xxlmax:flex-col"
     >
       <img
@@ -10,7 +10,7 @@
         :src="author.img"
       />
       <div class="flex flex-col m-4">
-        <h4 class="font-semibold">Author</h4>
+        <h4 class="font-semibold">Autor</h4>
 
         <p>{{ author.name }}</p>
         <p>{{ author.bio }}</p>
