@@ -2,8 +2,7 @@
   <div class="m-8">
     <TheHeader />
 
-    <h1 class="font-bold text-4xl">Blog</h1>
-    <ul class="flex flex-wrap">
+    <ul class="mt-4 flex flex-wrap">
       <li
         v-for="article of articles"
         :key="article.slug"
