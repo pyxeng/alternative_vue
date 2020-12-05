@@ -55,7 +55,8 @@ export default {
    */
   modules: [
     // Doc: https://github.com/nuxt/content
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxtjs/sitemap'
   ],
   /*
    ** Content module configuration
@@ -68,6 +69,16 @@ export default {
       }
     },
     nestedProperties: ['author.name']
+  },
+  sitemap: {
+    hostname: 'https://banho.dev/',
+    path: '/sitemap.xml',
+    gzip: true,
+    routes: [
+      '/blog',
+      '/blog/tag',
+      '/blog/autor'
+    ]
   },
   /*
    ** Build configuration

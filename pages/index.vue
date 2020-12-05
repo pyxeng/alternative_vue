@@ -54,7 +54,12 @@
           class="font-bold hover:underline"
           >Nuxt.js</a
         >
-        .
+        &
+        <a
+          href="https://tailwindcss.com/"
+          class="font-bold hover:underline"
+          >Tailwindcss</a
+        >
       </p>
     </footer>
   </div>
