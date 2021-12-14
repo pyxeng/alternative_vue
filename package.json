@@ -25,9 +25,11 @@
     "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/sitemap": "^2.4.0",
     "moment": "^2.29.1",
-    "nuxt": "2.14.7",
+    "nuxt": "^2.15.8",
     "prism-themes": "1.5.0",
-    "vue-gtag": "^1.10.0"
+    "vue": "^2.6.14",
+    "vue-gtag": "^1.10.0",
+    "vue-server-renderer": "^2.6.14"
   },
   "devDependencies": {
     "@nuxtjs/date-fns": "^1.4.3",
